@@ -1,0 +1,79 @@
+const doggy=[
+   
+
+{     
+        name : "German Shepherd" ,
+        poster:  "https://www.dogtrainercollege.us/wp-content/uploads/2015/10/eff509681fba4b2fc9025f697f88ad39.jpg" ,
+        lifespan :  "9-13 Years",
+        origin : "Germany" ,
+},
+
+{
+name : "Siberian Husky",
+poster: "https://i.pinimg.com/originals/9f/db/da/9fdbdab41aa568d732818029db9de870.jpg",
+lifespan :"12 – 15 years" ,
+origin : "Siberia",
+},
+
+{
+name : " Dobermann",
+poster: "https://encrypted-tbn2.gstatic.com/licensed-image?q=tbn:ANd9GcTLQwmtk76vj1QOhJIOULTuAOJP8QV18hSWWrxpRA2OaM0dJz37uLb_0SA3J9poECW5lWtBpF2DWEO0f1I",
+lifespan :"12 – 15 years" ,
+origin : "Siberia",
+},
+
+{
+name : "Rottweiler",
+poster:"https://newsroompost.com/wp-content/uploads/2022/09/Rottweiler-1000x600.jpg" ,
+lifespan :"8-10 Years" ,
+origin :"German" ,
+},
+
+{
+name : "Chihuahua",
+poster: "https://a-z-animals.com/media/2022/06/Chihuahua-puppy-on-a-black-background.jpg",
+lifespan : "12-20 Years",
+origin : "Mexico" ,
+},
+
+{
+name :"Shiba Inu" ,
+poster: "data:image/jpeg;base64,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",
+lifespan : "12-15 Years",
+origin : "Japan",
+},
+
+{
+name : "Golden Retriever",
+poster: "https://cdn.dogsplanet.com/wp-content/uploads/2019/10/golden-retriever-300x249.jpg",
+lifespan : "10-12 Years",
+origin : "Scottish",
+}
+
+
+
+]
+
+function displayDogs(data){
+
+var dog=document.getElementById("dogs").innerHTML=" ";
+let htmlString=``;
+
+for(i=0;i<data.length;i++){
+    htmlString=htmlString+`
+    <div class="dogs">
+    <div class="overlay">
+        </div>
+        <div class="details">
+        <h1>${data[i].name}</h1>
+
+        <img class="poster" src="${data[i].poster}" width="150" height="150" alt="${data[i].name}"/>
+        <h2> Life span:${data[i].lifespan}</h2> 
+        <p>Country of Origin: ${data[i].origin}</p>
+        </div></div>
+    `;
+    console.log(htmlString);
+    document.getElementById("dogs").innerHTML=htmlString;
+}
+}
+displayDogs(doggy);
